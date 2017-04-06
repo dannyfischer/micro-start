@@ -25,8 +25,13 @@ yarn / npm install
 ```
 
 
-Start developing your service and enjoy automatic service restarts.
+Start developing your service and enjoy automatic service restarts:
 
 ```bash
 npm run dev
 ```
+
+🚀 [`http://localhost:3000`](http://localhost:3000)
+
+
+For production use, deploy to a suiting service like [`now`](https://zeit.co/now) and start the microservice with `npm start`.
