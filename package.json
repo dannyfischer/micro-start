@@ -1,0 +1,28 @@
+{
+  "name": "micro-start",
+  "version": "1.0.0",
+  "description": "Minimal, opinionated HTTP microservice starting point",
+  "author": "Danny Fischer <hi@danny.fm> (https://danny.fm)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannyfischer/micro-start.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "nodemon --exec \"npm start -- --silent\"",
+    "test": "standard --verbose | snazzy",
+    "precommit": "npm test",
+    "prepush": "npm test"
+  },
+  "dependencies": {
+    "micro": "latest"
+  },
+  "devDependencies": {
+    "husky": "latest",
+    "nodemon": "latest",
+    "snazzy": "latest",
+    "standard": "latest"
+  }
+}
