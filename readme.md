@@ -18,7 +18,7 @@ Minimal, opinionated HTTP microservice starting point.
 Clone and install dependencies:
 
 ```bash
-git clone git@github.com:dannyfischer/micro-start.git
+git https://github.com/dannyfischer/micro-start.git
 cd micro-start
 rm -rf .git
 yarn / npm install
