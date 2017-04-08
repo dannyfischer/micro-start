@@ -1,5 +1,7 @@
 
 # 🚦 `micro-start`
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/dannyfischer/micro-start.svg)](https://greenkeeper.io/)
 Minimal, opinionated HTTP microservice starting point.
 
 <small>Powered by [`micro`](https://github.com/zeit/micro)</small>
